@@ -6,7 +6,7 @@ Mod your ISKÄRNA Lamp to connect to Zigbee or Wifi.
 
 ## Materials and Tools
 
-- [`FUT037Z` Zigbee Controller](https://aliexpress.com/item/1005006638834477.html)
+- `FUT037Z` Zigbee Controller [AliExpress](https://aliexpress.com/item/1005006638834477.html) [Product Page](https://miboxer.com/product/3-in-1-led-controller-zigbee-3-0-2-4g) or any other RGB Zigbee controller
 - Wire strippers (or if you don't care about your fingers, a sharp knife)
 - Something to cut wires
 - Screwdriver
@@ -49,8 +49,14 @@ Connect the LED wires from the head
 
 ## Connecting the controller
 
-Cycle the modes (press the "SET" button) of the controller until it is flashing green.
+Pressing the "SET" button results in:
+- 1st press: linking mode
+- Subsequent presses: Cycle output modes
+- Long press: Zigbee pairing mode (flashing LED)
+
+Cycle the modes (press the "SET" button) of the controller until it is red (RGB mode).
 Connect your Zigbee controller and it should show up as `TS0505B`.
+(RGBW is green LED, RGB+CCT is blue LED)
 
 ## Closing ISKÄRNA
 
@@ -60,6 +66,9 @@ The controller should face "down" (terminal screws facing the back) so the "SET"
 empty button hole, angled 45 degrees, slotting in between the rails where the control board and button used to be. The 
 power terminals should be at the bottom.
 
+### FUT037Z Manual
+
+[Link](FUT037Z_manual.pdf)
 
 ### Additional Images
 
